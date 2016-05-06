@@ -4,6 +4,7 @@
   <description>Hello World sample application that responds to the deviceready event.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
   <content src="index.html"/>
+  <icon src="icon.png" />
   <preference name="Orientation" value="portrail"/>
   <preference name="permission" value="none"/>
   <preference name="fullscreen" value="true"/>
@@ -31,7 +32,6 @@
   <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
   <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
-  <icon src="icon.png" />
   <platform name="android">
     <icon src="icon.png" density="ldpi"/>
     <icon src="icon.png" density="mdpi"/>
